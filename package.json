@@ -1,0 +1,21 @@
+{
+  "name": "desafio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@faker-js/faker": "^7.5.0",
+    "normalizr": "^3.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "ts-node": "^10.9.1"
+  },
+  "scripts": {
+    "dev": "nodemon normalizr.ts",
+    "generate": "ts-node generate_messages.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
